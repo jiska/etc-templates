@@ -1,0 +1,3 @@
+<IfModule mod_setenvif.c>
+    SetEnvIf Request_URI "\.(ico|png|jpg|gif)$" no_logging
+</IfModule>
